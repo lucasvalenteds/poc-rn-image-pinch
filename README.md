@@ -1,6 +1,6 @@
 # POC: Image Pinch
 
-It demonstrate how to implements pinch gesture on a image loaded from a server using the library [react-navigation-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler).
+It demonstrate pinch gesture on an image loaded from a server using the library [react-navigation-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler).
 
 ## How to run
 
