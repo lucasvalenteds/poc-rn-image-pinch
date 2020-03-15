@@ -4,7 +4,7 @@ import * as Path from "path";
 import * as Url from "url";
 import * as QueryString from "querystring";
 
-export const Server = Http.createServer(async (request, response) => {
+export const Server = Http.createServer((request, response) => {
   const url = Url.parse(request.url as string, true);
   const { extension } = (url.query as unknown) as QueryString.ParsedUrlQuery;
 
